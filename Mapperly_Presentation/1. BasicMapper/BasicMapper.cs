@@ -5,7 +5,7 @@ namespace Mapperly_Presentation._1._BasicMapper
     [Mapper]
     public partial class BasicMapper
     {
-        public partial HoldingDTO Map(Holding holding);
+        public partial AggregateDto Map(Holding holding);
 
     }
 }

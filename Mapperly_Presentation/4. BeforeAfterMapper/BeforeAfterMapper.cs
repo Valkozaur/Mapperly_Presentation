@@ -5,7 +5,7 @@ namespace Mapperly_Presentation._4._BeforeAfterMapper
     [Mapper]
     public partial class BeforeAfterMapper
     {
-        public HoldingDTO Map(Holding holding) 
+        public AggregateDto Map(Holding holding) 
         {
             //before effect
             holding.Id = "NotSoFakeId";
@@ -18,6 +18,6 @@ namespace Mapperly_Presentation._4._BeforeAfterMapper
             return dto;
         }
 
-        private partial HoldingDTO MapTo(Holding holding);
+        private partial AggregateDto MapTo(Holding holding);
     }
 }

@@ -5,6 +5,6 @@ namespace Mapperly_Presentation._2._StaticMapper
     [Mapper]
     public static partial class StaticMapper
     {
-        public static partial HoldingDTO ToDTO(this Holding holding);
+        public static partial AggregateDto ToDTO(this Holding holding);
     }
 }

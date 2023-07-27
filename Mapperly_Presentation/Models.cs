@@ -17,7 +17,7 @@ namespace Mapperly_Presentation
         public required string Isin { get; set; }
     }
 
-    public class HoldingDTO
+    public class AggregateDto
     {
         public required string Id { get; set; }
         public required string CurrencyCode { get; set; }
