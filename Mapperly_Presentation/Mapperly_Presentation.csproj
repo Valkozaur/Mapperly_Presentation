@@ -17,6 +17,7 @@
 
 	<ItemGroup>
 		<None Include="C:\Users\UVALNI\source\repos\LAB\Mapperly_Presentation\Mapperly_Presentation\5. AnalyzerDiagnostics\.editorconfig" />
+		<None Remove=".gitignore" />
 	</ItemGroup>
 
 </Project>
