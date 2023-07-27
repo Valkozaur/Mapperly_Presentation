@@ -9,6 +9,7 @@ Since no reflection is used at runtime, the generated code is completely trimmin
 | Method        |       Mean |   Error |  StdDev |  Gen 0 | Allocated |
 | ------------- | ---------: | ------: | ------: | -----: | --------: |
 | AutoMapper    | 1,203.9 ns | 2.30 ns | 2.15 ns | 0.9098 |   1,904 B |
+a| ManualMapping |   529.6 ns | 0.52 ns | 0.44 ns | 0.5541 |   1,160 B |
 | Mapperly      |   338.5 ns | 0.95 ns | 0.84 ns | 0.4396 |     920 B |
 
 ## Requirements
